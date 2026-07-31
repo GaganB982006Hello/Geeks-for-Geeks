@@ -1,0 +1,20 @@
+/*
+Given a string s. The task is to convert string characters to lowercase.
+
+Examples:
+
+Input: s = "ABCddE"
+Output: "abcdde"
+Explanation: A, B, C and E are converted to a, b, c and e thus all uppercase characters of the string converted to lowercase letter.
+Input: s = "LMNOppQQ"
+Output: "lmnoppqq"
+Explanation: L, M, N, O, and Q are converted to l, m, n, o and q thus all uppercase characters of the string converted to lowercase letter.
+  */
+
+class Solution {
+    static String toLower(String s) {
+        // code here
+        String L = s.toLowerCase();
+        return L;
+    }
+}
